@@ -16,7 +16,7 @@ export class CountriesListComponent implements OnInit {
   }
 
   settings = {
-    //actions: true,
+    actions: false,
     columns: {
       name: {
         title: 'Name',
